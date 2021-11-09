@@ -1,0 +1,135 @@
+.wrapper{
+    background-image: url(images/1617597751_40-p-glubokii-chernii-fon-43.jpg);
+}
+
+.tittle {
+    color: snow;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 55px;
+    margin-bottom: 0px;
+    font-family: ARIAL BLACK; 
+    letter-spacing: 3px;
+}
+
+.position {
+    margin-top: 3px;
+    color: snow;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-family: candara;
+    margin-bottom: 15px;
+}
+
+.section {
+    padding-top: 60px;
+    margin-left: 500px;
+    width: 400px;
+}
+
+.photo {
+    height: 420px;
+    width: 355px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.get {
+    border: 2px solid lightgrey; 
+    padding: 12px; 
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.me {
+    width: 350px;
+    font-family: candara;
+    margin-left: 15px;
+}
+
+.about {
+    width: 350px;
+    margin-left: 15px;
+}
+
+.univer {
+    width: 330px;
+    font-family: candara;
+    margin-left: 15px;
+}
+
+.techn {
+    font-family: candara;
+    width: 450px;
+    margin-left: 15px;
+}
+
+.myeducation {
+    font-family: candara;
+    margin-left: 15px;
+}
+
+.bl1 {
+    justify-content: space-between;
+    display: flex;
+    margin-right: 400px;
+}
+
+.skills {
+    margin-left: 58px;
+    margin-top: 40px;
+}
+
+.education {
+  margin-left: 58px; 
+  margin-top: 40px;
+}
+
+.bl2 {
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.selfeducate {
+    margin-left: 250px;
+    margin-top: -150px;
+}
+
+.background {
+    margin-top: 65px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  margin-left: 80px;
+}
+
+.info {
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 1200px){
+    .body {
+        width: 992px;
+    }
+    .wrapper {
+        width: 1900px;
+    }
+    .education{
+        margin-left: 198px;
+    }
+    .selfeducate {
+    margin-left: 450px;
+    }
+}
+@media screen and (max-width: 576px) {
+  .body {
+        width: 320px;
+    }  
+}
+
